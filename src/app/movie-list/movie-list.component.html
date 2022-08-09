@@ -1,6 +1,6 @@
 <h1>Movies</h1>
 <div *ngFor="let m of Movies">
-  <p>{{ m.name }} <a routerLink="/MovieDetails/{{ m.id }}">Details</a></p>
+  <p>{{ m.name }} - <a routerLink="/MovieDetails/{{ m.id }}">Details</a></p>
 
-  <img src="{{ m.image }}" />
+  <img src="{{ m.image }}" height="300px" width="auto" />
 </div>
